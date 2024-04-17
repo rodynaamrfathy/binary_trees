@@ -9,7 +9,6 @@ This repository contains a library for working with binary trees in C. It provid
 - [Usage](#usage)
 - [Functionality](#functionality)
 - [Contributing](#contributing)
-- [License](#license)
 
 ## Introduction
 
@@ -22,7 +21,7 @@ To use this library in your C projects, follow these steps:
 1. Clone this repository to your local machine:
 
     ```bash
-    git clone <repository-url>
+    git clone https://github.com/rodynaamrfathy/binary_trees
     ```
 
 2. Include the `binary_trees.h` header file in your source code:
@@ -34,7 +33,7 @@ To use this library in your C projects, follow these steps:
 3. Compile your source code along with the `binary_trees.c` file:
 
     ```bash
-    gcc -o <output-file> <your-source-file.c> binary_trees.c
+    gcc -Wall -Wextra -Werror -pedantic binary_tree_print.c <testfile> <function> -o <executable>
     ```
 
 4. Link your executable with the `binary_trees` library during compilation if needed.
